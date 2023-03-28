@@ -10,11 +10,6 @@ import math
 
 
 class SimulatedAnnealingOptimizer():
-    """
-    Metaheuristic. Used for post-optimization of RL results.
-    Note that the time per stop is specified in Order.py
-    """
-
     def __init__(self, verbose=False):
         self.verbose = verbose
 
